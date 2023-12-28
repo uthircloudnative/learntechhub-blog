@@ -1,8 +1,8 @@
 ---
-title: "How to containarize a spring boot application with Jib plugin"
+title: "How to containerize a spring boot application with Jib plugin"
 datePublished: Thu Dec 28 2023 19:12:26 GMT+0000 (Coordinated Universal Time)
 cuid: clqpl0pup000208l0almo2rzn
-slug: how-to-containarize-a-spring-boot-application-with-jib-plugin
+slug: how-to-containerize-a-spring-boot-application-with-jib-plugin
 tags: devops, docker-images, jib
 
 ---
@@ -114,3 +114,7 @@ public class ServerController {
 With all this configuration run below command which will create a docker image and push the image to configured docker hub registry.
 
 > ./gradlew jib
+
+A sample application code with above configurations can be found here.
+
+[Containerize a spring boot app using Jib plugin](https://github.com/uthircloudnative/k8s-learning/tree/feature_k8s_deployment_example)
